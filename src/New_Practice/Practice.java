@@ -1,10 +1,14 @@
 package New_Practice;
-
+import java.util.Scanner;
 public class Practice {
 public static void main(String[] args) {
-	byte b1 = (byte)384;
+
+	System.out.println("Enter Value in Byte :");
+	Scanner Scan = new Scanner(System.in);
+	int b1 = Scan.nextInt();
+	byte b2 = (byte)b1;
 	
-System.out.println(b1);
+System.out.println("After Casting Value is :" + b2);
 	
 }
 
